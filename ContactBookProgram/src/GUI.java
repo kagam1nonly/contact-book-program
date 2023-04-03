@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.FileWriter;
 
+// GUI has no layout manager, I made the sizes manually and setting bounds the hard way.
 public class GUI extends JFrame implements ActionListener
 {
     private JButton saveButton;
